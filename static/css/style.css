@@ -6,8 +6,8 @@ html
   padding: 0;}
 
 body
-{ font: normal .80em arial, sans-serif;
-  background: #1C051F  url(../images/header.jpg) no-repeat;
+{ font: normal .80em Microsoft JhengHei, sans-serif;
+  background: #1C051F  url(../images/header.jpg) repeat;
   color: #FFF;}
 
 p
@@ -18,29 +18,31 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: bold 175% arial, sans-serif;
-  color: #802954;
+{ font: bold 175% Microsoft JhengHei, sans-serif;
+  color: #f4cdf2;
   letter-spacing: -1px;
   margin: 0 0 10px 0;
   padding: 15px 0 0 0;}
 
 h2
-{ font: bold 165% arial, sans-serif;}
+{ font: bold 165% Microsoft JhengHei, sans-serif;}
+  padding: 0 0 5px 0;
+  color: #d998f5:}
 
 h3
-{ font: bold 125% arial, sans-serif;
+{ font: bold 125% Microsoft JhengHei, sans-serif;
   padding: 0 0 5px 0;
-  color: #802954;}
+  color: #b8e1ff;}
 
 h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
-  font: bold 110% arial, sans-serif;
+  font: bold 110% Microsoft JhengHei, sans-serif;
   color: #1D1D1D;
   line-height: 1.5em;}
 
 h5, h6
-{ font: italic 95% arial, sans-serif;
+{ font: italic 95% Microsoft JhengHei, sans-serif;
   color: #1D1D1D;
   padding-bottom: 15px;}
 
@@ -85,6 +87,7 @@ ol li
 	float: left;
 	margin-left: 20px;
 }
+
 #slider-wrapper {
     height: 250px;
 	background: transparent;
@@ -101,6 +104,8 @@ ol li
     left: 0;
     position: absolute;
     top: 0;
+    height: 250px;
+    width: 700px;
 }
 #slider a {
     border: 0 none;
@@ -141,7 +146,7 @@ ol li
     background: none repeat scroll 0 0 #000000;
     bottom: 0;
     color: #FFFFFF;
-    font-family: arial;
+    font-family: Microsoft JhengHei;
     left: 0;
     position: absolute;
     text-transform: uppercase;
@@ -209,7 +214,7 @@ a.nivo-nextNav {
   
 #header H1
 { width: 1000px;
-  font: normal 450% arial, sans-serif;
+  font: normal 450% Microsoft JhengHei, sans-serif;
   color: #A93973;
   letter-spacing: -4px;
   background: transparent;}
@@ -219,7 +224,7 @@ span
 
 #header H2
 { width: 1000px;
-  font: normal 160% arial, sans-serif;
+  font: normal 160% Microsoft JhengHei, sans-serif;
   color: #FFF;
   letter-spacing: -1px;
   margin-top: -5px;
@@ -247,7 +252,7 @@ span
   margin-bottom: 10px;}
 
 .sidebar_item
-{ font: normal 100% arial, sans-serif;
+{ font: normal 100% Microsoft JhengHei, sans-serif;
   padding: 0 15px 0 0;
   margin-bottom: 20px;
   width: 201px;}
@@ -297,7 +302,7 @@ span
   
 #footer
 { width: 960px;
-  font: normal 100% arial, sans-serif;
+  font: normal 100% Microsoft JhengHei, sans-serif;
   height: 30px;
   margin-bottom: 10px;
   padding: 20px 0 0px 0;
@@ -335,7 +340,7 @@ span
 }
 
 .lavaLampWithImage li a {
-  font: normal 120% arial, sans-serif;
+  font: normal 120% Microsoft JhengHei, sans-serif;
   text-decoration: none;
   color: #FFF;
   z-index: 10;
@@ -348,4 +353,15 @@ span
 
 .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
   border: none;
+}
+
+.msg_box{
+        max-width: 100%;
+        padding: 30px;
+        margin: 30px;
+        border-radius: 7px;
+        box-shadow: 4px 4px 11px 1px purple;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
 }
