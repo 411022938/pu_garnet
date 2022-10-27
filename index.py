@@ -11,7 +11,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("aboutme.html")
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run()
