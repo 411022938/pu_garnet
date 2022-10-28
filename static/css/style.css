@@ -60,11 +60,11 @@ a, a:hover
 { background: transparent;
   outline: none;
   text-decoration: underline;
-  color: #5D5D5D;}
+  color: #85FFED;}
 
 a:hover
 { text-decoration: underline;
-  color: #1D1D1D;}
+  color: #85FFED;}
 
 ul
 { margin: 2px 0 22px 17px;}
@@ -242,7 +242,7 @@ span
   height: 50px;} 
   
 #menubar
-{ width: 740px;
+{ width: 720px;
   height: 50px;
   float: right;
   color: #000;
@@ -278,7 +278,7 @@ span
 { color: #FFF;}
 
 .sidebar a
-{ color: #802954;}
+{ color: #85FFED;}
 
 .sidebar a:hover
 { text-decoration: none;}
