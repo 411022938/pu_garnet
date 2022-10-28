@@ -280,13 +280,7 @@ span
 .sidebar a
 { color: #85FFED;}
 
-.sidebar a:visited
-{ color: #E485FF;}
-
 .sidebar a:hover
-{ color: #9D85FF;}
-
-.sidebar a:active
 { color: #9D85FF;}
 
 .sidebar ul li, .sidebar ul li.selected
@@ -330,7 +324,6 @@ span
 #footer a:hover
 { text-decoration: none;}
   
-/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
 .lavaLampWithImage {
   position: relative;
   height: 30px;
