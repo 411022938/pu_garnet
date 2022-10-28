@@ -280,8 +280,14 @@ span
 .sidebar a
 { color: #85FFED;}
 
+.sidebar a:visited
+{ color: #E485FF;}
+
 .sidebar a:hover
-{ text-decoration: none;}
+{ color: #9D85FF;}
+
+.sidebar a:active
+{ color: #9D85FF;}
 
 .sidebar ul li, .sidebar ul li.selected
 { list-style: none; 
